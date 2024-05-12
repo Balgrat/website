@@ -3,14 +3,14 @@ import { App, Credentials } from 'realm-web';
 import { APP_ID } from '../realm/constants';
 
 // TODO fix types eventually
-type UserContextType = {
-    user: any;
-    setUser: any;
-    fetchUser: any;
-    emailPasswordLogin: any;
-    emailPasswordSignup: any;
-    logOutUser: any;
-};
+// type UserContextType = {
+//     user: any;
+//     setUser: any;
+//     fetchUser: any;
+//     emailPasswordLogin: any;
+//     emailPasswordSignup: any;
+//     logOutUser: any;
+// };
 
 // Creating a Realm App Instance
 const app = new App(APP_ID);

@@ -51,6 +51,7 @@ const Login = () => {
     // or not.
     useEffect(() => {
         loadUser();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     // This function gets fired when the user clicks on the "Login" button.
