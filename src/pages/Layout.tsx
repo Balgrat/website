@@ -15,11 +15,6 @@ const Layout = () => {
                         Shopping
                     </Link>
                 </li>
-                <li>
-                    <Link to="/login" className="nav-item">
-                        Login
-                    </Link>
-                </li>
             </ul>
             <Outlet />
         </>
